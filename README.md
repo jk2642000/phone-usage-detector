@@ -31,7 +31,7 @@ phone-usage-detector/
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/jk2642000/phone-usage-detector
 cd phone-usage-detector
 ```
 
