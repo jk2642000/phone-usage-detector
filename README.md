@@ -45,6 +45,20 @@ pip install -r requirements.txt
    - Linux: `sudo apt install ffmpeg`
    - macOS: `brew install ffmpeg`
 
+## 📁 Sample Data
+
+### Input Videos
+- **Sample test videos** in various formats (MP4, AVI, WEBM)
+- **Different scenarios** for phone usage detection testing
+
+
+### Output Examples
+- **Processed videos** with visual annotations from all three models
+- **JSON summary reports** with detailed analytics
+- **Comparison results** showing detection accuracy differences
+- **Download**: https://drive.google.com/drive/folders/1Xq5oKbokSwGsgo2scVYKkL-klr_x-9Ol?usp=sharing
+
+
 ## 🎯 Usage
 
 ### Quick Start
