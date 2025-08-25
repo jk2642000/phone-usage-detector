@@ -14,7 +14,7 @@ A computer vision system that detects and analyzes phone usage in videos using t
 ## 📁 Project Structure
 
 ```
-jay_task/
+phone-usage-detector/
 ├── Detection_code.py          # v1.0 - Basic object detection approach
 ├── Pose_Code.py              # v2.0 - Pose estimation approach  
 ├── Segmentation_Code.py      # v3.0 - Segmentation approach (recommended)
@@ -30,7 +30,7 @@ jay_task/
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd jay_task
+cd phone-usage-detector
 ```
 
 2. **Install Python dependencies**
@@ -71,7 +71,7 @@ python Segmentation_Code.py
 |---------|-------|----------|----------|-------------|----------|
 | **v1.0** | yolo11m.pt | Object Detection + Motion | Basic | Fastest | Quick detection |
 | **v2.0** | yolo11m.pt + yolo11m-pose.pt | Pose Estimation | Good | Medium | Balanced accuracy |
-| **v3.0** | yolo11m-seg.pt | Segmentation Masks | Best | Slower | Highest precision |
+| **v3.0** | yolo11m-seg.pt | Segmentation Masks | Best | Good | Highest precision |
 
 ### v1.0 - Detection Model (`Detection_code.py`)
 - **Approach**: Detects phones and people using YOLO object detection
