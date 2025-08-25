@@ -20,9 +20,11 @@ phone-usage-detector/
 ├── Segmentation_Code.py      # v3.0 - Segmentation approach (recommended)
 ├── requirements.txt          # Python dependencies
 ├── Code_Version_Report.pdf   # Detailed technical documentation
-└── Pose_code_Output/         # Output directory for processed videos
+└── Sample_Output/         # Output directory for processed videos
+    ├── Detection_code_Output/ # Detection Model outputs
     ├── Pose_code_Output/     # Pose model outputs
     └── Segmentation_code_Output/  # Segmentation model outputs
+
 ```
 
 ## 🔧 Installation
